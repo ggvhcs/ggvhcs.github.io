@@ -33,7 +33,9 @@ header .logo{
 
 header .navigation{
     position: relative;
-    line-height: 75px;
+    background: #23252b;
+    top: 74px;
+
 }
 
 header .navigation .menu{
@@ -55,4 +57,14 @@ header .navigation .menu{
 .menu-item > a:hover{
     color: #469dff;
     transition: 0.3s;
+}
+
+.menu-item .sub-menu{
+    position: absolute;
+    background: #23252b;
+    top: 74px;
+    line-height: 40px;
+    list-style: none;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
 }
