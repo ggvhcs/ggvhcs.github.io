@@ -33,9 +33,7 @@ header .logo{
 
 header .navigation{
     position: relative;
-    background: #23252b;
-    top: 74px;
-
+    line-height: 40px;
 }
 
 header .navigation .menu{
