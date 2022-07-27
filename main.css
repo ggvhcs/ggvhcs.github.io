@@ -66,3 +66,17 @@ header .navigation .menu{
     border-radius: 0 0 8px 8px;
     box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
 }
+
+.menu-item .sub-menu .sub-item{
+    position: relative;
+    padding: 7px 0;
+    cursor: pointer;
+    box-shadow: inset 0px -30px 5px rgba(255, 255, 255, 0.2);
+}
+
+.menu-item .sub-menu .sub-item a{
+    color: #fff;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 15px 30px;
+}
