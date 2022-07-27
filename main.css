@@ -80,3 +80,11 @@ header .navigation .menu{
     text-decoration: none;
     padding: 15px 30px;
 }
+
+.menu-item .sub-menu .sub-item:hover{
+    color: #4080ef;
+}
+
+.menu-item .sub-menu .sub-item:last-child:hover{
+    border-radius:0 0 8px 8px;
+}
