@@ -74,6 +74,7 @@ header .navigation .menu{
     pointer-events: all;
     transform: translateY(0px);
     opacity: 1;
+    transition: 0.3s;
 }
 
 .menu-item .sub-menu .sub-item{
@@ -91,7 +92,7 @@ header .navigation .menu{
 }
 
 .menu-item .sub-menu .sub-item:hover{
-    color: #4080ef;
+    background: #4080ef;
 }
 
 .menu-item .sub-menu .sub-item:last-child:hover{
