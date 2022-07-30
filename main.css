@@ -68,13 +68,14 @@ header .navigation .menu{
     pointer-events: none;
     transform: translateY(20px);
     opacity: 0;
+    transition: 0.3s;
+    transition-property: transform, opacity;
 }
 
 .menu-item:hover .sub-menu{
     pointer-events: all;
     transform: translateY(0px);
     opacity: 1;
-    transition: 0.3s;
 }
 
 .menu-item .sub-menu .sub-item{
