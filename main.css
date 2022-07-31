@@ -132,6 +132,16 @@ header .navigation .menu{
     background: #38f531;
 }
 
-@media {
-    
+@media (max-width: 1060px){
+    header .navigation .menu{
+        position: absolute;
+        display: block;
+        background: #23252b;
+        min-width: 350px;
+        height: 100vh;
+        top: 0;
+        right: 0;
+        padding: 90px 50px;
+        overflow-y: auto;
+    }
 }
