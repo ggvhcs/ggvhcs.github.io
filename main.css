@@ -162,4 +162,16 @@ header .navigation .menu{
     .menu-item:hover .sub-menu{
         transform: translateX(10px);
     }
+
+    .menu-item .sub-menu  .sub-item{
+        box-shadow: none;
+    }
+    
+    .menu-item .sub-menu  .sub-item{
+        background: none;
+    }
+    
+    .menu-item .sub-menu .sub-item a:hover{
+        color: #4080ef;
+    }
 }
