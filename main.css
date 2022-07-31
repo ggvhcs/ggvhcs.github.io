@@ -99,3 +99,25 @@ header .navigation .menu{
 .menu-item .sub-menu .sub-item:last-child:hover{
     border-radius:0 0 8px 8px;
 }
+
+.more .more-menu{
+    position: absolute;
+    background: #23252b;
+    list-style: none;
+    top: 0;
+    left: 100%;
+    white-space: nowrap;
+    border-radius: 0 8px 8px 8px;
+    overflow: hidden;
+    pointer-events: none;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s;
+    transition-property: transform, opacity;
+}
+
+.more:hover .more-menu{
+    pointer-events: all;
+    transform: translateY(0px);
+    opacity: 1;
+}
