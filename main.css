@@ -173,16 +173,20 @@ header .navigation .menu{
     
     .menu-item .sub-menu .sub-item a:hover{
         color: #23f335;
-        transition: 0.3s;
+        /*transition: 0.3s;*/
     }
 
     .more .more-menu{
         opacity: 1s;
         position: relative;
         left: 0;
-        transform: translateY(0);
-        background: rgba(255, 255, 255, 0.1);
+        /*transform: translateY(0);
+        background: rgba(255, 255, 255, 0.1);*/
         border-radius: 5px;
+    }
+
+    .more .more-menu .menu-item{
+        box-shadow: none;
     }
 
 }
