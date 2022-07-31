@@ -23,7 +23,7 @@ header{
 }
 
 header .logo{
-    color: rgb(4, 145, 4);
+    color: #fff;
     font-size: 1.8em;
     font-weight: 700;
     text-transform: uppercase;
@@ -45,7 +45,7 @@ header .navigation .menu{
 }
 
 .menu-item > a{
-    color: rgb(4, 145, 4);
+    color: #fff;
     font-size: 1em;
     text-decoration: none;
     margin: 20px;
@@ -86,7 +86,7 @@ header .navigation .menu{
 }
 
 .menu-item .sub-menu .sub-item a{
-    color: rgb(4, 145, 4);
+    color: #fff;
     font-size: 1em;
     text-decoration: none;
     padding: 15px 30px;
@@ -129,5 +129,9 @@ header .navigation .menu{
 }
 
 .more .more-menu .more-item:hover{
-    background: #40ccef;
+    background: #38f531;
+}
+
+@media {
+    
 }
