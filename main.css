@@ -134,7 +134,7 @@ header .navigation .menu{
 
 @media (max-width: 1060px){
     header .navigation .menu{
-        position: absolute;
+        position: fixed;
         display: block;
         background: #23252b;
         min-width: 350px;
