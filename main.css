@@ -173,5 +173,13 @@ header .navigation .menu{
     
     .menu-item .sub-menu .sub-item a:hover{
         color: #23f335;
+        transition: 0.3s;
     }
+
+    .more .more-menu{
+        opacity: 1s;
+        position: relative;
+        left: 0;
+    }
+
 }
