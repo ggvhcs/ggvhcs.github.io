@@ -55,6 +55,10 @@ header .navigation .menu {
   user-select: none;
 }
 
+header .navigation .menu:hover {
+    font-weight: 700;
+}
+
 /******************
 #   MENU ITEMS.   #
 *******************/
@@ -82,7 +86,7 @@ header .navigation .menu {
   border-radius: 0 0 8px 8px;
   box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
   pointer-events: none;
-  transform: translateY(20px);
+  transform: translateY(0px);
   opacity: 0;
   transition: 0.3s;
   transition-property: transform, opacity;
@@ -113,7 +117,8 @@ header .navigation .menu {
 }
 
 .menu-item .sub-menu .sub-item:hover {
-  background: #697f85;
+  /*background: #697f85;*/
+  font-weight: 700;
 }
 
 .menu-item .sub-menu .sub-item:last-child:hover {
